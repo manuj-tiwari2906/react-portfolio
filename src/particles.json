@@ -4,7 +4,7 @@
       "value": ""
     }
   },
-  "fpsLimit": 60,
+  "fpsLimit": 40,
   "interactivity": {
     "detectsOn": "window",
     "events": {
@@ -22,11 +22,11 @@
       "bubble": {
         "distance": 400,
         "duration": 2,
-        "opacity": 0.8,
-        "size": 40
+        "opacity": 0.9,
+        "size": 20
       },
       "push": {
-        "quantity": 4
+        "quantity": 2
       },
       "repulse": {
         "distance": 200,
@@ -53,7 +53,7 @@
       "enable": true,
       "outMode": "bounce",
       "random": false,
-      "speed": 6,
+      "speed": 3,
       "straight": false
     },
     "number": {
@@ -64,7 +64,7 @@
       "value": 80
     },
     "opacity": {
-      "value": 0.5
+      "value": 0.8
     },
     "shape": {
       "type": "circle"

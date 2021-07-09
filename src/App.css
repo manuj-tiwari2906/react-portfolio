@@ -142,3 +142,37 @@ nav {
     width: 10rem;
   }
 }
+
+/* ----------------------------------SERVICES -----------------------------*/
+
+.services {
+  text-align: center;
+  padding-bottom: 1rem;
+  background: rgb(238, 231, 231) ;
+}
+
+.services h1, h3{
+  color:indigo;
+  text-transform: uppercase;
+}
+
+/* ---------------------------ICON -------------------------------- */
+
+
+.services .box {
+  height: 10rem;
+  border-bottom: 5px solid indigo;
+  padding: .625rem;
+  margin-bottom: 1.875rem;
+} 
+
+.services .icon {
+  width: 3rem;
+}
+
+.services .box:hover h3{
+  background: indigo;
+  border-bottom: 5px solid rgb(233, 106, 21) ;
+  color:white;
+}
+
