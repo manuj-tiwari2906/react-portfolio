@@ -176,3 +176,28 @@ nav {
   color:white;
 }
 
+
+/* ----------------------------EXPERIENCE--------------------------------- */
+
+.experience-wrapper {
+  position: absolute;
+  padding: 3.125rem ;
+  overflow: hidden;
+}
+
+.experience h1 {
+  text-transform: uppercase;
+  color: indigo;
+}
+
+.experience-wrapper{
+  position: inherit;
+  content: "";
+  top: 0;
+  
+  margin-left: -0.0625rem;
+  width: 0.125rem;
+  height: 100%;
+  background-color: rgb(208, 180, 228);
+  z-index:1;
+}
