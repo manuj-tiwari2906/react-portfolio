@@ -4,7 +4,8 @@ import "./App.css";
 import 'bootstrap/dist/css/bootstrap.min.css'
 import particlesOptions from "./particles.json";
 import Navbar from './components/Navbar';
-import Header from './components/Header'
+import Header from './components/Header';
+import AboutMe from './components/AboutMe';
 
 function App() {
   return (
@@ -12,8 +13,9 @@ function App() {
       <Particles options={particlesOptions} />
       <Navbar />
       <Header />
+      <AboutMe/>
     </div>
-    
+
   );
 }
 

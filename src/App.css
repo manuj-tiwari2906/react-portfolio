@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap');
 /* -----------------------------------NAVBAR-------------------------------------- */
 .body{
-  font-family: 'Zen Loop' cursive;
+  font-family: 'Zen Loop' cursive !important;
 }
 
 .logo {
@@ -114,4 +114,31 @@ nav {
     particles-canvas {
         display: none;
     }
+}
+
+
+/* -----------------------MY IMAGE--------------------- */
+
+.photo-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-img {
+  width: 16rem;
+  border-radius: 50%;
+  padding: 0.3rem;
+  border: 1px solid red;
+}
+
+.about-heading {
+  color: black;
+  text-transform: uppercase;
+}
+
+@media(max-width: 480px) {
+  .profile-img {
+    width: 10rem;
+  }
 }
