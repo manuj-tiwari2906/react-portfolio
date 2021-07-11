@@ -7,34 +7,40 @@
 .logo {
   
   width: 5.25rem;
+  z-index: 1;
   
 }
 
 nav ul li :hover{
   
-  color: whitesmoke !important;
+  color: rgb(244, 243, 245) !important;
+  
 }
 
 nav ul li {
   text-transform: uppercase;
+  
 }
 .ml-auto {
   margin-left: auto !important;
 }
 
 .navbar-nav > li > a.active, .navbar-nav > li > a:active:focus {
-  border-top: 0.1875rem solid rgb(243, 238, 228);
+  border-top: 0.1875rem solid rgb(238, 232, 230);
 }
 
 nav {
     z-index:2; 
+    
 }
+
+
 
 /* ----------------------------HEADER----------------------------------------- */
 
 .header-wrapper {
   position: relative;
-  background: url(back-image.jpg) no-repeat;
+  background: url(back-image.jpg) no-repeat ;
   background-size:cover;
   background-position: center;
   height: 90vh;
@@ -48,7 +54,7 @@ nav {
   bottom:0;
   align-items: center;
   text-align: center;
-  top:0;
+  top: -63px;
   left:0;
   right:0;
     
@@ -58,7 +64,7 @@ nav {
 .main-info h1 {
   
     color: black;
-  margin-top: 0.02em;
+  margin-top: -0.98em;
   font-weight: bolder;
 }
 
@@ -86,17 +92,19 @@ nav {
   border: 3px solid rgb(223, 76, 76) ;
   text-transform: uppercase;
   border-radius: 0;
-  padding: 0.625rem 0.95px 0.90px 15px;
+  padding: 10px;
   color: whitesmoke;
   position:relative;
   text-align:center ;
   text-decoration: none;
   margin: 2rem;
+  background-color: red;
+  z-index: 2;
 }
 
 .btn-main-offer:hover {
     text-decoration: none;
-    background-color: red;
+   
     color: azure;
     transition: .2s ease-in-out;
 }
@@ -164,6 +172,7 @@ nav {
   border-bottom: 5px solid indigo;
   padding: .625rem;
   margin-bottom: 1.875rem;
+  transition: 0.3s ease-in-out ;
 } 
 
 .services .icon {

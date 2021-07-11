@@ -30,7 +30,7 @@
       },
       "repulse": {
         "distance": 200,
-        "duration": 0.4
+        "duration": 0.2
       }
     }
   },
@@ -61,10 +61,10 @@
         "enable": true,
         "value_area": 800
       },
-      "value": 80
+      "value": 60
     },
     "opacity": {
-      "value": 0.8
+      "value": 0.2
     },
     "shape": {
       "type": "circle"
